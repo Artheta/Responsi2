@@ -165,38 +165,36 @@
             ></iframe>
           </div>
           <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-            <form>
-              <form name="respond">
-                <div class="row g-3">
-                  <div class="col-md-6">
-                    <div class="form-floating">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" />
-                      <label for="name">Your Name</label>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="form-floating">
-                      <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" />
-                      <label for="email">Your Email</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-floating">
-                      <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" />
-                      <label for="subject">Subject</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-floating">
-                      <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" ="height: 100px"></textarea>
-                      <label for="message">Message</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+            <form name="respond">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" />
+                    <label for="name">Your Name</label>
                   </div>
                 </div>
-              </form>
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" />
+                    <label for="email">Your Email</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" />
+                    <label for="subject">Subject</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 100px"></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                </div>
+              </div>
             </form>
           </div>
         </div>
@@ -300,10 +298,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <form name="respond">
-      <input name="email" type="email" placeholder="Email" required />
-      <button type="submit">Send</button>
-    </form>
+    <form name="respond"></form>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbz36OHl68xtFcS5C54wMfFAMOnbw8Dqnki2Te7f8yOtKayEuppHv6EuH6YKXeXpogrI/exec";
